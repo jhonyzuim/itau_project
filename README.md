@@ -31,5 +31,6 @@ Criar um formulario para registrar dados pessoais
 * Não usar frameworks de estilo como Bootstrap, Google Material e demais.
 
 ### Arquivos:
-[index.html](https://github.com/jhonyzuim/itau_project/edit/main/index.html)
-[base.css](https://github.com/jhonyzuim/itau_project/edit/main/base.css)
+- [index.html](https://github.com/jhonyzuim/itau_project/edit/main/index.html)
+
+- [base.css](https://github.com/jhonyzuim/itau_project/edit/main/base.css)
