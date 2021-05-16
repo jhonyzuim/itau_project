@@ -1,8 +1,8 @@
 # itau_project
 Projeto para criação de um formulário.
 
-#### Autor
-- [Jhony Zuim](https://github.com/jhonyzuim)
+#### Autor - Jhony Zuim
+- [Github](https://github.com/jhonyzuim)
 
 - [Linkedin](https://www.linkedin.com/in/jhonyzuim/)
 
