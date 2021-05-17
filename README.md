@@ -1,7 +1,7 @@
 # Itau_Project
 Projeto para criação de um formulário.
 
-#### Autor - Jhony Zuim
+## Autor - Jhony Zuim
 
 Quem sou eu?
 
