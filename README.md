@@ -1,4 +1,4 @@
-# itau_project
+# Itau_Project
 Projeto para criação de um formulário.
 
 #### Autor - Jhony Zuim
@@ -44,4 +44,4 @@ Criar um formulario para registrar dados pessoais
 
 - [script.js](https://github.com/jhonyzuim/itau_project/edit/main/script.js)
 
-Em todos os arquivos você encontrará comentarios explicando as funcionalidade de cada linha dos códigos.
+OBS. Em todos os arquivos você encontrará comentarios explicando as funcionalidade de cada linha dos códigos.
