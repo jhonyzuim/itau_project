@@ -1,2 +1,160 @@
 <!--Código HTML criado por Jhony Zuim-->
 
+<html> <!--Inicio da página-->
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário Itaú</title> <!--titulo na aba da página-->
+	<link href="base.css" rel="stylesheet"> <!--arquivo CSS de referência-->
+    <script src="script.js"></script> <!--arquivo JavaScript de referência-->
+
+</head>
+
+<body>
+    <div class="cabecalho"> <!--Cabeçalho do formulário-->
+        <h1><img id="logo" src="gama2.png">&nbsp&nbsp&nbsp Formulário Itaú &nbsp&nbsp&nbsp&nbsp<img id="logo" src="itau2.png"> </h1> <!--Titulo do formulário-->
+    </div>
+
+<form action="index.html" method="post" onsubmit="return enviarDados();"> <!--Inicio do formulario-->
+
+<fieldset> <!-- Agrupar label-->
+	
+	<fieldset class="grupo"> <!-- Agrupar label-->
+		<div class="campo">
+			<label for="nome">Nome*</label>
+			<input type="text" id="nome" name="nome" placeholder="Ex: Jhony Zuim" style="width: 41em" value="" />
+		</div>
+	</fieldset>	
+
+    <fieldset class="grupo"> <!-- Agrupar label-->
+		<div class="campo">
+			<label for="rg">RG</label>
+			<input type="tel" id="rg" name="rg" placeholder="Ex: 30.810.234-1" style="width: 20em" value="" />
+		</div>
+		<div class="campo">
+			<label for="cpf">CPF*</label>
+			<input type="tel" id="cpf" name="cpf" placeholder="Ex: 342.753.898-65" style="width: 20em" value="" />
+		</div>
+	</fieldset>
+    
+	<div class="campo">
+		<label>Gênero</label>
+		<label class="checkbox">
+			<input type="radio" name="sexo" value="masculino"> Masculino
+		</label>
+		<label class="checkbox">
+			<input type="radio" name="sexo" value="feminino"> Feminino
+		</label>
+	</div>
+
+	<div class="campo">
+		<label for="email">E-mail</label>
+		<input type="email" id="email" name="email" placeholder="Ex: jhonyfczuim@gmail.com" style="width: 41em" value="" />
+	</div>
+
+    <fieldset class="grupo">
+		<div class="campo">
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" name="telefone" placeholder="Ex: 11 5694 1234" style="width: 20em" value="" />
+		</div>
+		<div class="campo">
+			<label for="celular">Celular*</label>
+			<input type="tel" id="celular" name="celular" placeholder="Ex: 11 98293 3602" style="width: 20em" value="" />
+		</div>
+	</fieldset>
+
+    <fieldset class="grupo">
+		<div class="campo">
+			<label for="endereco">Endereço*</label>
+			<input type="text" id="endereco" name="endereco" placeholder="Ex: Rua Gusmões ou Av. Paulista" style="width: 30em" value="" />
+		</div>
+		<div class="campo">
+			<label for="numero">Número*</label>
+			<input type="text" id="numero" name="numero" placeholder="Ex: 2673" style="width: 10em" value="" />
+		</div>
+	</fieldset>
+
+    <fieldset class="grupo">
+		<div class="campo">
+			<label for="bairro">Bairro</label>
+			<input type="text" id="bairro" name="bairro" placeholder="Ex: Paraiso" style="width: 25em" value="" />
+		</div>
+		<div class="campo">
+			<label for="cep">CEP</label>
+			<input type="tel" id="cep" name="cep" placeholder="Ex: 04104-060" style="width: 15em" value="" />
+		</div>
+	</fieldset>
+	
+	<fieldset class="grupo">
+		<div class="campo">
+			<label for="cidade">Cidade</label>
+			<input type="text" id="cidade" name="cidade" placeholder="Ex: São Paulo" style="width: 36em" value="" />
+		</div>
+		<div class="campo">
+			<label for="estado">Estado</label> <!--Campo select com todos os estados-->
+			<select name="estado" id="estado">
+				<option value="">- - - -</option>
+				<option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+			</select>
+        </div> 
+	</fieldset>
+
+    <div class="campo"> <!--Aceite da politica de privacidade de dados devido a LGPD-->
+		<label class="checkbox">
+			<input type="checkbox" name="sexo" value="masculino"> Li e concordo com os termos e condições da política de privacidade de dados.
+		</label>
+	</div>
+    <div>* Campos obrigatórios.</div>
+    
+    <br/>
+	<button class="botao submit" type="submit" name="submit">Enviar</button>
+</fieldset>
+
+</form> <!--Final do formulario-->
+
+<footer><!--Inicio do rodapé-->
+    <div class="footer"> 
+         <div class="footer-row-1"> <!--Mensagem do final-->
+                <p>.: Formulário para cadastro criado exclusivamente para o processo seletivo de PCD´s do Itaú :.  </p>
+         </div>
+         <br/>
+         <!--Link para o Github-->
+         <a href="https://github.com/jhonyzuim/itau_project" class="iconeperfil"><img src="github.jpeg" class="icongithub">Github</a><br>
+         <br/>
+         <hr/>
+         <br/>
+         <div class="footer-content">
+            <p>Copyright 2020. All rights reserved.</p>
+         </div>
+         <br/>
+ </div>
+</footer><!--final do rodapé-->
+
+</body> <!--Final do corpo da página-->
+
+</html> <!--Final da página-->
