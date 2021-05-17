@@ -2,6 +2,11 @@
 Projeto para criação de um formulário.
 
 #### Autor - Jhony Zuim
+
+Quem sou eu?
+
+Formado em Recursos Humanos apaixonado por tecnologia recentemente conclui o MBA em Business Intelligence & Analytics e Big Data, atuando no RH na área de Total Rewards e também acabo de concluir um STA em Data Analytics onde pude colocar em pratica boa parte do que aprendi em meu MBA e agora estou em busca de uma oportunidade definitiva.
+
 - [Github](https://github.com/jhonyzuim)
 
 - [Linkedin](https://www.linkedin.com/in/jhonyzuim/)
@@ -38,3 +43,5 @@ Criar um formulario para registrar dados pessoais
 - [base.css](https://github.com/jhonyzuim/itau_project/edit/main/base.css)
 
 - [script.js](https://github.com/jhonyzuim/itau_project/edit/main/script.js)
+
+Em todos os arquivos você encontrará comentarios explicando as funcionalidade de cada linha dos códigos.
